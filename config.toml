@@ -62,7 +62,7 @@
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = "这是属于lxj和hzj的空间"
+    custom = "这是属于我们的世界"
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
