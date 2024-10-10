@@ -45,7 +45,7 @@
       logo = ""
       # title name
       # 标题名称
-      name = "Hzj love Lxj"
+      name = "黄泽杰Ekko"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -62,7 +62,7 @@
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = "献给那些年的我们"
+    custom = ""
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
@@ -74,7 +74,7 @@
     author = true
     # site creation time
     # 网站创立年份
-    since = 2013
+    since = 2023
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -181,7 +181,7 @@
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "For my favorite girl"
+      subtitle = "时间不在于你拥有多少，而在于你怎样使用"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -197,7 +197,7 @@
       enable = true
       # special amount of posts in each home posts page
       # 主页每页显示文章数量
-      paginate = 9
+      paginate = 6
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
