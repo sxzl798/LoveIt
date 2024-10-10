@@ -1,10 +1,13 @@
-{{- if .Title -}}
-    <figure>
-        {{- dict "Src" .Destination "Title" .Text "Caption" .Title "Linked" true "Resources" .Page.Resources | partial "plugin/img.html" -}}
-        <figcaption class="image-caption">
-            {{- .Title | safeHTML -}}
-        </figcaption>
-    </figure>
+{{- if .IsBlock -}}
+  <figure>
+    <img src="{{ .Destination | safeURL }}"
+      {{- with .Text }} alt="{{ . }}"{{ end -}}
+    >
+    {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
+  </figure>
 {{- else -}}
-    {{- dict "Src" .Destination "Title" .Text "Resources" .Page.Resources | partial "plugin/img.html" -}}
+  <img src="{{ .Destination | safeURL }}"
+    {{- with .Text }} alt="{{ . }}"{{ end -}}
+    {{- with .Title }} title="{{ . }}"{{ end -}}
+  >
 {{- end -}}
